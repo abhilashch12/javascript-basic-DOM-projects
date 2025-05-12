@@ -1,0 +1,46 @@
+body{
+     height: 100vh;
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center; 
+  background-color:lightblue; 
+   margin: 0;
+  padding: 0;
+  overflow-y: hidden; /* hides vertical scrollbar */
+}
+#mainContainer{
+    text-align: center;
+}
+#profileContainer{
+     background-color: white;
+  padding: 2rem;
+  width:550px;
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+#description {
+  min-height: 60px; /* enough to hold most descriptions */
+}
+
+#name, #role {
+  min-height: 24px;
+}
+
+#personImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+#surprise{
+    border-radius: 10px;
+    padding: 7px;
+    color:blue;
+}
+#surprise:hover{
+    color:white;
+    background-color: blue;
+}
